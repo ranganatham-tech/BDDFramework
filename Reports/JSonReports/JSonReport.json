@@ -1,0 +1,798 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-28T06:56:21.745Z",
+        "line": 13,
+        "name": "Login to the Website",
+        "description": "",
+        "id": "login;login-to-the-website;;2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12907307000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the Website",
+            "match": {
+              "location": "stepDefinition.LogIn_1.open_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 399932600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click on the Register",
+            "match": {
+              "location": "stepDefinition.LogIn_1.click_on_the_register()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 672562600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on the Sign up now",
+            "match": {
+              "location": "stepDefinition.LogIn_1.click_on_the_sign_up_now()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5438038600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Login",
+            "match": {
+              "location": "stepDefinition.LogIn_1.click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8765559600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter \"ranganatham7026@gmail.com\" and \"Ranga@12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ranganatham7026@gmail.com\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"Ranga@12345\"",
+                  "offset": 38
+                }
+              ],
+              "location": "stepDefinition.LogIn_1.enter_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7615636700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on Log In",
+            "match": {
+              "location": "stepDefinition.LogIn_1.click_on_log_in()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "LogIn",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature%20Files/1_LogIn.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-28T06:56:57.834Z",
+        "line": 3,
+        "name": "Hovering on Shop Products and Clicking on Powder",
+        "description": "",
+        "id": "hover-on-shop-products-and-click-on-powder;hovering-on-shop-products-and-clicking-on-powder",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12689150300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Website",
+            "match": {
+              "location": "stepDefinition.HoverAndClickPowder_2.open_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 238414000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Hover on Shop Products",
+            "match": {
+              "location": "stepDefinition.HoverAndClickPowder_2.hover_on_shop_products()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 575768600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Powder",
+            "match": {
+              "location": "stepDefinition.HoverAndClickPowder_2.click_on_powder()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2071459100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on First Result",
+            "match": {
+              "location": "stepDefinition.HoverAndClickPowder_2.click_on_first_result()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4347133500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Find Retailer",
+            "match": {
+              "location": "stepDefinition.HoverAndClickPowder_2.click_on_find_retailer()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Hover on Shop Products and Click on Powder",
+    "description": "",
+    "id": "hover-on-shop-products-and-click-on-powder",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature%20Files/2_HoverAndClickPowder.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-28T06:57:17.812Z",
+        "line": 11,
+        "name": "Search Sensitive Liquid on Search bar",
+        "description": "",
+        "id": "search-a-product;search-sensitive-liquid-on-search-bar;;2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14335323400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "First Open Browser",
+            "match": {
+              "location": "stepDefinition.SearchProduct_3.first_open_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 283289300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Search the product \"Sensitive Liquid\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sensitive Liquid\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinition.SearchProduct_3.search_the_product(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3128633900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Search button",
+            "match": {
+              "location": "stepDefinition.SearchProduct_3.click_on_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8242192300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Second Result",
+            "match": {
+              "location": "stepDefinition.SearchProduct_3.click_on_second_result()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Search a Product",
+    "description": "",
+    "id": "search-a-product",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature%20Files/3_SearchProduct.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-28T06:57:43.917Z",
+        "line": 11,
+        "name": "Hover on Shop and Click on \"Tide Free \u0026 Gentle\" and Verify the Text \"hypoallergenic\"",
+        "description": "",
+        "id": "verify-the-text;hover-on-shop-and-click-on-\"tide-free-\u0026-gentle\"-and-verify-the-text-\"hypoallergenic\";;2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21893877600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Browser for fourth test case",
+            "match": {
+              "location": "stepDefinition.VerifyTextHypoallergenic_4.open_browser_for_fourth_test_case()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 251325100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Hover on Shop Products for fourth test case",
+            "match": {
+              "location": "stepDefinition.VerifyTextHypoallergenic_4.hover_on_shop_products_for_fourth_test_case()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 573501500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Tide Free and Gentle",
+            "match": {
+              "location": "stepDefinition.VerifyTextHypoallergenic_4.click_on_tide_free_and_gentle()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2211819800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify the Text \"hypoallergenic\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hypoallergenic\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinition.VerifyTextHypoallergenic_4.verify_the_text(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Verify the Text",
+    "description": "",
+    "id": "verify-the-text",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature%20Files/4_VerifyTextHypoallergenic.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-28T06:58:08.900Z",
+        "line": 11,
+        "name": "Highlighting the Text \"Turn to Cold with Tide\"",
+        "description": "",
+        "id": "highlight-the-text;highlighting-the-text-\"turn-to-cold-with-tide\";;2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d104.0.5112.102)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027RANGANATHA\u0027, ip: \u0027192.168.1.23\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\hp\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:59823}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4529024fe29ce575ac2fa78f3802e148\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat stepDefinition.HighlightText_5.open_browser_for_fifth_test_case(HighlightText_5.java:40)\r\n\tat ✽.Open Browser for fifth test case(file:///E:/Applications/Eclipse/eclipse-workspace/New%20folder/ComprehensiveAssessment_BDDFramework/./src/test/resources/Feature%20Files/5_HighlightText.feature:4)\r\n",
+              "duration": 21487682600,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "Open Browser for fifth test case",
+            "match": {
+              "location": "stepDefinition.HighlightText_5.open_browser_for_fifth_test_case()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1290100,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Click on Our Commitment",
+            "match": {
+              "location": "stepDefinition.HighlightText_5.click_on_our_commitment()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Highlight the \"Turn to Cold with Tide\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Turn to Cold with Tide\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinition.HighlightText_5.highlight_the(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Highlight the Text",
+    "description": "",
+    "id": "highlight-the-text",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature%20Files/5_HighlightText.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-28T06:58:30.548Z",
+        "line": 3,
+        "name": "Click on \"How To Do Laundry\"",
+        "description": "",
+        "id": "how-to-do-laundry;click-on-\"how-to-do-laundry\"",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23326521200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the Browser for sixth test case",
+            "match": {
+              "location": "stepDefinition.HowToDoLaundry_6.open_the_browser_for_sixth_test_case()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 256330700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Hover on How to wash clothes",
+            "match": {
+              "location": "stepDefinition.HowToDoLaundry_6.hover_on_how_to_wash_clothes()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2968069100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on How To Do Laundry",
+            "match": {
+              "location": "stepDefinition.HowToDoLaundry_6.click_on_how_to_do_laundry()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "How To Do Laundry",
+    "description": "",
+    "id": "how-to-do-laundry",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature%20Files/6_HowToDoLaundry.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-28T06:58:57.128Z",
+        "line": 3,
+        "name": "Click on \"What\u0027s New\" in the Website",
+        "description": "",
+        "id": "what-s-new;click-on-\"what-s-new\"-in-the-website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17948213200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the Browser for seventh test case",
+            "match": {
+              "location": "stepDefinition.WhatsNew_7.open_the_browser_for_seventh_test_case()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1921859500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click on Whats New",
+            "match": {
+              "location": "stepDefinition.WhatsNew_7.click_on_whats_new()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "What\u0027s New",
+    "description": "",
+    "id": "what-s-new",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature%20Files/7_WhatsNew.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-28T06:59:17.022Z",
+        "line": 3,
+        "name": "Changing the Location",
+        "description": "",
+        "id": "change-location;changing-the-location",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29331761600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Browser for eighth test case",
+            "match": {
+              "location": "stepDefinition.ChangeLocation_8.open_browser_for_eighth_test_case()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 332500400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click US English",
+            "match": {
+              "location": "stepDefinition.ChangeLocation_8.click_us_english()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9779247300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click Canada English",
+            "match": {
+              "location": "stepDefinition.ChangeLocation_8.click_canada_english()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Change Location",
+    "description": "",
+    "id": "change-location",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature%20Files/8_ChangeLocation.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-28T06:59:56.496Z",
+        "line": 13,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 26766960800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the Website for ninth test case",
+            "match": {
+              "location": "stepDefinition.LogInFail_9.open_the_website_for_ninth_test_case()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 674891500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click on Register",
+            "match": {
+              "location": "stepDefinition.LogInFail_9.click_on_register()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 777633300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Sign up now",
+            "match": {
+              "location": "stepDefinition.LogInFail_9.click_on_sign_up_now()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13241239400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Login link",
+            "match": {
+              "location": "stepDefinition.LogInFail_9.click_on_login_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 969408700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter the \"ranganatha@gmail.com\" and \"Ranga@54321\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ranganatha@gmail.com\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"Ranga@54321\"",
+                  "offset": 37
+                }
+              ],
+              "location": "stepDefinition.LogInFail_9.enter_the_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 450159100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on Log In button",
+            "match": {
+              "location": "stepDefinition.LogInFail_9.click_on_log_in_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature%20Files/9_LogInFail.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-28T07:00:39.404Z",
+        "line": 15,
+        "name": "SignOut of the User",
+        "description": "",
+        "id": "sign-out;signout-of-the-user;;2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 31952591900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the Website for tenth test case",
+            "match": {
+              "location": "stepDefinition.SignOut_10.open_the_website_for_tenth_test_case()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 547538000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click Register",
+            "match": {
+              "location": "stepDefinition.SignOut_10.click_register()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 918541900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click Sign up now",
+            "match": {
+              "location": "stepDefinition.SignOut_10.click_sign_up_now()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6650509000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click Login",
+            "match": {
+              "location": "stepDefinition.SignOut_10.click_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23826477200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter \"ranganatham7026@gmail.com\" \"Ranga@12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ranganatham7026@gmail.com\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"Ranga@12345\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefinition.SignOut_10.enter(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12077349300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click Log In",
+            "match": {
+              "location": "stepDefinition.SignOut_10.click_log_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 550524800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click User name",
+            "match": {
+              "location": "stepDefinition.SignOut_10.click_user_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1046437300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click Sign Out",
+            "match": {
+              "location": "stepDefinition.SignOut_10.click_sign_out()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Sign Out",
+    "description": "",
+    "id": "sign-out",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature%20Files/SignOut_10.feature",
+    "tags": []
+  }
+]

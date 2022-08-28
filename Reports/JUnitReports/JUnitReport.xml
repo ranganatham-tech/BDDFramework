@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="10" time="335.773">
+    <testcase classname="LogIn" name="Login to the Website" time="35.99">
+        <system-out><![CDATA[Given Open the Website......................................................passed
+When Click on the Register..................................................passed
+Then Click on the Sign up now...............................................passed
+And Click on Login..........................................................passed
+Then Enter "ranganatham7026@gmail.com" and "Ranga@12345"....................passed
+And Click on Log In.........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Hover on Shop Products and Click on Powder" name="Hovering on Shop Products and Clicking on Powder" time="19.934">
+        <system-out><![CDATA[Given Open Website..........................................................passed
+When Hover on Shop Products.................................................passed
+Then Click on Powder........................................................passed
+And Click on First Result...................................................passed
+Then Click on Find Retailer.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Search a Product" name="Search Sensitive Liquid on Search bar" time="26.01">
+        <system-out><![CDATA[Given First Open Browser....................................................passed
+When Search the product "Sensitive Liquid"..................................passed
+Then Click on Search button.................................................passed
+And Click on Second Result..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify the Text" name="Hover on Shop and Click on &quot;Tide Free &amp; Gentle&quot; and Verify the Text &quot;hypoallergenic&quot;" time="24.955">
+        <system-out><![CDATA[Given Open Browser for fourth test case.....................................passed
+When Hover on Shop Products for fourth test case............................passed
+Then Click on Tide Free and Gentle..........................................passed
+And Verify the Text "hypoallergenic"........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Highlight the Text" name="Highlighting the Text &quot;Turn to Cold with Tide&quot;" time="21.504">
+        <failure message="element not interactable&#10;  (Session info: chrome=104.0.5112.102)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'RANGANATHA', ip: '192.168.1.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:59823}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 4529024fe29ce575ac2fa78f3802e148" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[Given Open Browser for fifth test case......................................failed
+When Click on Our Commitment................................................skipped
+Then Highlight the "Turn to Cold with Tide".................................skipped
+
+StackTrace:
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=104.0.5112.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RANGANATHA', ip: '192.168.1.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:59823}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4529024fe29ce575ac2fa78f3802e148
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at stepDefinition.HighlightText_5.open_browser_for_fifth_test_case(HighlightText_5.java:40)
+	at ✽.Open Browser for fifth test case(file:///E:/Applications/Eclipse/eclipse-workspace/New%20folder/ComprehensiveAssessment_BDDFramework/./src/test/resources/Feature%20Files/5_HighlightText.feature:4)
+]]></failure>
+    </testcase>
+    <testcase classname="How To Do Laundry" name="Click on &quot;How To Do Laundry&quot;" time="26.557">
+        <system-out><![CDATA[Given Open the Browser for sixth test case..................................passed
+When Hover on How to wash clothes...........................................passed
+Then Click on How To Do Laundry.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="What's New" name="Click on &quot;What's New&quot; in the Website" time="19.88">
+        <system-out><![CDATA[Given Open the Browser for seventh test case................................passed
+When Click on Whats New.....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Change Location" name="Changing the Location" time="39.455">
+        <system-out><![CDATA[Given Open Browser for eighth test case.....................................passed
+When Click US English.......................................................passed
+Then Click Canada English...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Title of your feature" name="Title of your scenario" time="42.891">
+        <system-out><![CDATA[Given Open the Website for ninth test case..................................passed
+When Click on Register......................................................passed
+Then Click on Sign up now...................................................passed
+And Click on Login link.....................................................passed
+Then Enter the "ranganatha@gmail.com" and "Ranga@54321".....................passed
+And Click on Log In button..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Sign Out" name="SignOut of the User" time="77.591">
+        <system-out><![CDATA[Given Open the Website for tenth test case..................................passed
+When Click Register.........................................................passed
+Then Click Sign up now......................................................passed
+And Click Login.............................................................passed
+Then Enter "ranganatham7026@gmail.com" "Ranga@12345"........................passed
+And Click Log In............................................................passed
+Then Click User name........................................................passed
+And Click Sign Out..........................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

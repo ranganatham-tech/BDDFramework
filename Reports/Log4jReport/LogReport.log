@@ -1,0 +1,59 @@
+2022-08-28 12:26:31,475 +0530 [main] INFO  (LogIn_1.java:35) - Opening Driver
+2022-08-28 12:26:31,513 +0530 [main] INFO  (LogIn_1.java:38) - Implicitly Waiting
+2022-08-28 12:26:35,237 +0530 [main] INFO  (LogIn_1.java:50) - Clicking on Register
+2022-08-28 12:26:35,911 +0530 [main] INFO  (LogIn_1.java:56) - Clicking on Sign up now
+2022-08-28 12:26:41,351 +0530 [main] INFO  (LogIn_1.java:74) - Clicking on Login
+2022-08-28 12:26:46,705 +0530 [main] INFO  (LogIn_1.java:80) - Entering Email
+2022-08-28 12:26:50,116 +0530 [main] INFO  (LogIn_1.java:83) - Entering Password
+2022-08-28 12:26:52,041 +0530 [main] INFO  (LogIn_1.java:89) - Clicking on Login
+2022-08-28 12:26:57,734 +0530 [main] INFO  (LogIn_1.java:96) - Taking SnapShot of Login Page
+2022-08-28 12:27:07,679 +0530 [main] INFO  (HoverAndClickPowder_2.java:35) - Opening Driver
+2022-08-28 12:27:10,767 +0530 [main] INFO  (HoverAndClickPowder_2.java:49) - Hovering on Shop Products
+2022-08-28 12:27:11,345 +0530 [main] INFO  (HoverAndClickPowder_2.java:55) - Clicking on Powder
+2022-08-28 12:27:13,418 +0530 [main] INFO  (HoverAndClickPowder_2.java:62) - Clicking on First Result
+2022-08-28 12:27:17,767 +0530 [main] INFO  (HoverAndClickPowder_2.java:69) - Taking SnapShot of Hover and Click Powder Page
+2022-08-28 12:27:28,286 +0530 [main] INFO  (SearchProduct_3.java:33) - Opening Driver
+2022-08-28 12:27:32,438 +0530 [main] INFO  (SearchProduct_3.java:45) - Sending keys to Search Bar
+2022-08-28 12:27:35,529 +0530 [main] INFO  (SearchProduct_3.java:53) - Clicking on Search button
+2022-08-28 12:27:37,043 +0530 [main] INFO  (SearchProduct_3.java:64) - Clicking on Second Result
+2022-08-28 12:27:43,820 +0530 [main] INFO  (SearchProduct_3.java:68) - Taking SnapShot of Search Product Page
+2022-08-28 12:28:02,344 +0530 [main] INFO  (VerifyTextHypoallergenic_4.java:36) - Opening Driver
+2022-08-28 12:28:06,084 +0530 [main] INFO  (VerifyTextHypoallergenic_4.java:50) - Hovering on Shop Products
+2022-08-28 12:28:06,658 +0530 [main] INFO  (VerifyTextHypoallergenic_4.java:56) - Clicking on Tide Free & Gentle
+2022-08-28 12:28:07,144 +0530 [main] INFO  (VerifyTextHypoallergenic_4.java:64) - Scrolling Down
+2022-08-28 12:28:07,671 +0530 [main] INFO  (VerifyTextHypoallergenic_4.java:70) - Verifying Text
+2022-08-28 12:28:08,870 +0530 [main] INFO  (VerifyTextHypoallergenic_4.java:73) - Taking SnapShot of Verify Text Hypoallergenic Page
+2022-08-28 12:28:18,631 +0530 [main] INFO  (HighlightText_5.java:35) - Opening Driver
+2022-08-28 12:28:49,028 +0530 [main] INFO  (HowToDoLaundry_6.java:36) - Opening Driver
+2022-08-28 12:28:54,124 +0530 [main] INFO  (HowToDoLaundry_6.java:51) - Hovering on How to Wash Clothes
+2022-08-28 12:28:54,913 +0530 [main] INFO  (HowToDoLaundry_6.java:60) - Clicking on How To Do Laundry
+2022-08-28 12:28:57,104 +0530 [main] INFO  (HowToDoLaundry_6.java:67) - Taking SnapShot of How To Do Laundry Page
+2022-08-28 12:29:08,220 +0530 [main] INFO  (WhatsNew_7.java:33) - Opening Driver
+2022-08-28 12:29:16,508 +0530 [main] INFO  (WhatsNew_7.java:48) - Clicking on What's New 
+2022-08-28 12:29:17,006 +0530 [main] INFO  (WhatsNew_7.java:53) - Taking SnapShot of What's New Page
+2022-08-28 12:29:37,216 +0530 [main] INFO  (ChangeLocation_8.java:33) - Opening Driver
+2022-08-28 12:29:46,695 +0530 [main] INFO  (ChangeLocation_8.java:47) - Clicking on US - English
+2022-08-28 12:29:55,676 +0530 [main] INFO  (ChangeLocation_8.java:55) - Clicking on Canada - English 
+2022-08-28 12:29:56,475 +0530 [main] INFO  (ChangeLocation_8.java:58) - Taking SnapShot of Change Location Page
+2022-08-28 12:30:17,806 +0530 [main] INFO  (LogInFail_9.java:37) - Opening Driver
+2022-08-28 12:30:23,944 +0530 [main] INFO  (LogInFail_9.java:51) - Clicking on Register
+2022-08-28 12:30:24,725 +0530 [main] INFO  (LogInFail_9.java:57) - Clicking on Sign Up Now
+2022-08-28 12:30:38,662 +0530 [main] INFO  (LogInFail_9.java:80) - Entering Invalid Email
+2022-08-28 12:30:38,936 +0530 [main] INFO  (LogInFail_9.java:83) - Entering Invalid Password
+2022-08-28 12:30:39,138 +0530 [main] INFO  (LogInFail_9.java:89) - Clicking on Log In button
+2022-08-28 12:30:39,139 +0530 [main] INFO  (LogInFail_9.java:91) - LogIn is Failing
+2022-08-28 12:30:39,386 +0530 [main] INFO  (LogInFail_9.java:94) - Taking SnapShot of LogIn Fail Page
+2022-08-28 12:31:06,038 +0530 [main] INFO  (SignOut_10.java:36) - Opening Driver
+2022-08-28 12:31:11,919 +0530 [main] INFO  (SignOut_10.java:50) - Clicking on Register
+2022-08-28 12:31:12,838 +0530 [main] INFO  (SignOut_10.java:56) - Clicking on Sign Up Now
+2022-08-28 12:31:19,489 +0530 [main] INFO  (SignOut_10.java:74) - Clicking on Log In
+2022-08-28 12:31:22,567 +0530 [main] INFO  (SignOut_10.java:80) - Entering Email
+2022-08-28 12:31:43,316 +0530 [main] INFO  (SignOut_10.java:83) - Entering Password
+2022-08-28 12:31:49,082 +0530 [main] INFO  (SignOut_10.java:89) - Clicking on Log In
+2022-08-28 12:31:55,946 +0530 [main] INFO  (SignOut_10.java:97) - Clicking on User Name
+2022-08-28 12:31:56,663 +0530 [main] INFO  (SignOut_10.java:103) - Clicking on Sign Out
+2022-08-28 12:31:56,994 +0530 [main] INFO  (SignOut_10.java:106) - Taking SnapShot of Sign Out Page
+2022-08-28 12:33:19,552 +0530 [main] INFO  (HighlightText_5.java:35) - Opening Driver
+2022-08-28 12:33:24,513 +0530 [main] INFO  (HighlightText_5.java:49) - Clicking on Our Commitment
+2022-08-28 12:33:25,272 +0530 [main] INFO  (HighlightText_5.java:63) - Highlighting the Text
+2022-08-28 12:33:26,228 +0530 [main] INFO  (HighlightText_5.java:69) - Taking SnapShot of Highlight Text Page
